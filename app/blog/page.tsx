@@ -9,8 +9,27 @@ export default function Blog() {
       <div className="grid-bg" />
       <nav>
         <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
+          <li>
+          <a href="/#home">Home</a>
+        </li>
+        <li>
+          <a href="/#story">Story</a>
+        </li>
+        <li>
+          <a href="/#journey">Journey</a>
+        </li>
+        <li>
+          <a href="/#expertise">Expertise</a>
+        </li>
+        <li>
+          <a href="/#projects">Projects</a>
+        </li>
+        <li>
+          <a href="/#connect">Connect</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
         </ul>
       </nav>
       <div className="blog-container">
@@ -31,7 +50,16 @@ export default function Blog() {
               <h3>{post.title}</h3>
               <div className="date">{post.date}</div>
               <p className="excerpt">{post.excerpt}</p>
-              {post.category && <span className="category">{post.category}</span>}
+              {post.category && post.category.length > 0 && (
+                <div style={{ marginTop: '1rem' }}>
+                  {post.category.map((cat) => (
+                    <span key={cat} className="category" style={{ marginRight: '0.5rem' }}>
+                      {cat}
+                    </span>
+                  ))}
+                </div>
+              )}
+              {/* {post.category && <span className="category">{post.category}</span>} */}
             </Link>
           ))}
         </div>

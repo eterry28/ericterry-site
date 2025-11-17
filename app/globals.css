@@ -454,6 +454,16 @@ h2 {
   font-size: 1.5rem;
 }
 
+.blog-post .content a {
+  color: var(--neon-cyan);
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.blog-post .content a:hover {
+  color: var(--neon-magenta);
+}
+
 .blog-post .content p {
   margin-bottom: 1.5rem;
 }
@@ -464,6 +474,7 @@ h2 {
   border-radius: 3px;
   color: var(--neon-cyan);
   font-family: 'Courier New', monospace;
+  font-size: 1rem;
 }
 
 .blog-post .content pre {
@@ -472,6 +483,8 @@ h2 {
   border-left: 3px solid var(--neon-cyan);
   overflow-x: auto;
   margin-bottom: 1.5rem;
+  scrollbar-color: var(--neon-blue) var(--darker-bg);
+  scrollbar-width: thin;
 }
 
 .blog-post .content pre code {

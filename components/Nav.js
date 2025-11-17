@@ -20,6 +20,9 @@ function Nav() {
         <li>
           <a href="#connect">Connect</a>
         </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
       </ul>
     </nav>
   );

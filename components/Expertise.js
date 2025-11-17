@@ -17,7 +17,7 @@ function Expertise() {
         <div className="expertise-card">
           <h3>Quality Leadership</h3>
           <ul>
-            <li>Building and scaling QA organizations</li>
+            <li>Building and scaling QC organizations</li>
             <li>Strategic planning and metrics</li>
             <li>Team development and mentorship</li>
             <li>Cross-functional collaboration</li>
@@ -52,9 +52,9 @@ function Expertise() {
           <ul>
             <li>AI/ML integration in testing workflows</li>
             <li>Intelligent test generation</li>
-            <li>Emerging technology evaluation and adoption</li>
-            <li>Innovation strategy and implementation</li>
-            <li>Thought leadership and industry advocacy</li>
+            <li>Emerging technology evaluation</li>
+            <li>Strategy and implementation</li>
+            <li>Industry thought leadership</li>
           </ul>
         </div>
       </div>
