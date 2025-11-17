@@ -39,6 +39,12 @@ Instead of PHP class properties, we use React hooks to manage our machine's stat
 const [inventory, setInventory] = useState(5);
 const [state, setState] = useState(STATES.NO_CREDIT);
 const [messages, setMessages] = useState([]);
+
+useEffect(() => {
+  if (state === STATES.SOLD) {
+    dispense();
+  }
+}, [state]);
 ```
 
 This gives us reactive updates—when state changes, the UI automatically updates. No need to manually refresh or echo output.
@@ -79,7 +85,6 @@ const customerChoice = () => {
     case STATES.HAS_CREDIT:
       addMessage("🎯 You've made your choice...");
       setState(STATES.SOLD);
-      dispense();
       break;
     case STATES.NO_CREDIT:
       addMessage("❌ You've made a choice, but haven't inserted any credits.");
