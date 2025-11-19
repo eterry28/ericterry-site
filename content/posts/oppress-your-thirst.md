@@ -1,6 +1,6 @@
 ---
 title: "Oppress Your Thirst!"
-date: "2024-09-01"
+date: "2019-07-20"
 excerpt: "A mashup of 1984, World War Z, and the latest from the In Death series."
 category: ["Comrade Cola"]
 ---

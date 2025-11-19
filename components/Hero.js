@@ -3,7 +3,7 @@ function Hero() {
     <section id="home" className="hero">
       <h1>Eric Terry</h1>
       <p className="subtitle">
-        Sr. Director of Digital Production Practices | Applitools Ambassador | AI Nomad
+        Sr. Director of Digital Production Practices | Applitools Ambassador | AI Enthusiast
       </p>
       <div className="tagline">
         Quality Through Leadership & Innovation

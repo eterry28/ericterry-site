@@ -1,6 +1,6 @@
 ---
 title: "Comrade Cola Machine: From PHP to Interactive JavaScript"
-date: "2025-01-17"
+date: "2025-11-17"
 excerpt: "Taking the classic Comrade Cola vending machine from PHP state machine to an interactive React experience. Oppress your thirst with code!"
 category: ["Comrade Cola"]
 tags: ["comrade-cola", "javascript", "react", "state-machine", "interactive"]
