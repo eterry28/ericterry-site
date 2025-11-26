@@ -2,7 +2,7 @@
 title: "Generate Drink Options"
 date: "2019-07-29"
 excerpt: "Our team has once again been tasked with creating a solution for her latest ask – A Drink Flavor Generator."
-category: ["Comrade Cola", "typescriptss"]
+category: ["Comrade Cola", "TypeScript"]
 tags: ["comrade-cola", "typescript"]
 ---
 The Chairwoman is overjoyed. The Comrade Cola machines are a huge success. She is now ready to take her legacy to the next level. Our team has once again been tasked with creating a solution for her latest ask – A Drink Flavor Generator. Who would want to miss out on exciting and exotic flavors like Cherry Dr. Dimitri or Vanilla Babushka Tea? Let’s see how we’ll go about implementing a way to generate options with javascript.
