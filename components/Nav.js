@@ -15,13 +15,16 @@ function Nav() {
           <a href="#expertise">Expertise</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Initiatives</a>
         </li>
         <li>
           <a href="#connect">Connect</a>
         </li>
         <li>
           <a href="/blog">Blog</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
         </li>
       </ul>
     </nav>
