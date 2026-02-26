@@ -30,9 +30,11 @@ export default function Blog() {
         <li>
           <a href="/blog">Blog</a>
         </li>
+        {/*}
         <li>
           <a href="/projects">Projects</a>
         </li>
+        */}
         </ul>
       </nav>
       <div className="blog-container">

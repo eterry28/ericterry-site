@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Eric Terry | Sr. Director Digital Production Practices",
+  title: "Eric Terry | Sr. Director Digital Content Production",
   description: "Quality Leader with 20+ years in tech, specializing in modern development, testing, team leadership, and AI/ML in software quality.",
   openGraph: {
     title: "Eric Terry | Quality Leader",
-    description: "Sr. Director Digital Production Practices | Applitools Ambassador | AI Nomad",
+    description: "Sr. Director Digital Content Production | Applitools Ambassador | AI Nomad",
     type: "website",
   },
 };
