@@ -12,8 +12,7 @@ function Story() {
         </p>
 
         <p>
-          My journey started as a{" "}
-          <span className="highlight">Software Engineer</span>, building complex
+          My tech journey started as a{" "}<span className="highlight">Tester</span>, for a small credit card company. I learned the importance of functional requirements and testing strategies. Later, I transitioned to the role of a{" "} <span className="highlight">Software Engineer</span>, building complex
           systems for the insurance industry. I wrote Java applications that
           moved critical data between state departments. I traveled to
           implementation sites. I trained users. I saw firsthand how software
@@ -30,9 +29,9 @@ function Story() {
 
         <p>
           For the past{" "}
-          <span className="highlight">11+ years at EVERSANA INTOUCH</span>, I've
+          <span className="highlight">11 years at EVERSANA INTOUCH</span>, I've
           led the evolution of our quality control practice. I pioneered visual
-          testing with Applitools, implemented modern frameworks like Cypress,
+          testing with Applitools, implemented modern frameworks like Cypress and Playwright,
           and built teams that span continents. I've grown from managing a
           handful of testers to directing an entire quality organization.
         </p>
@@ -50,16 +49,15 @@ function Story() {
           I ensure compliance, monitor team health, and provide a clear account of project performance.
           I manage team operations, from staffing decisions to acting as the central conduit 
           between practice, delivery leads, and ops. My goal is to partner with leadership 
-          to drive priority initiatives that lead to <span className="highlight">continuous improvement </span> 
-           and ensure our practice is always running at its best.
+          to drive priority initiatives that lead to{" "}<span className="highlight">continuous improvement</span> and ensure our practice is always running at its best.
         </p>
 
         <p>
           When I'm not leading quality initiatives, you'll find me working on{" "}
           <span className="highlight">Comrade Cola</span>, my creative outlet
           where I blend storytelling, coding challenges, and a bit of satire.
-          It's my escape, my playground, and my reminder that the best work
-          happens when you're having fun.
+          It's my escape, my playground, and my reminder that{" "}<span className="highlight">the best work
+          happens when you're having fun</span>.
         </p>
       </div>
     </section>

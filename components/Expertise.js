@@ -30,7 +30,7 @@ function Expertise() {
           <ul>
             <li>Visual testing with Applitools</li>
             <li>Test automation frameworks</li>
-            <li>Cypress, JavaScript testing</li>
+            <li>Cypress and Playwright testing</li>
             <li>CI/CD integration</li>
             <li>Quality engineering practices</li>
           </ul>
