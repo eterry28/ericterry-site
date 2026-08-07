@@ -1,64 +1,55 @@
 function Story() {
   return (
     <section id="story">
-      <h2>The Story</h2>
-      <div className="story-content">
-        <p>
-          I've spent over <span className="highlight">20 years</span> in tech,
-          but my perspective on quality comes from somewhere deeper, the
-          healthcare frontlines. That experience taught me that quality isn't
-          just about clean code or passing tests. It's about{" "}
-          <span className="highlight">real impact on real people</span>.
-        </p>
+      <div className="wrap">
+        <div className="section-head reveal in">
+          <div className="eyebrow">The Story</div>
+          <h2>Where the discipline comes from</h2>
+          <p>
+            I&rsquo;ve spent over 20 years in tech, but my sense of quality
+            started somewhere deeper; the healthcare frontlines. That
+            taught me quality is much more than clean code or passing tests.
+            It&rsquo;s about real impact on real people.
+          </p>
+        </div>
 
-        <p>
-          My tech journey started as a{" "}<span className="highlight">Tester</span>, for a small credit card company. I learned the importance of functional requirements and testing strategies. Later, I transitioned to the role of a{" "} <span className="highlight">Software Engineer</span>, building complex
-          systems for the insurance industry. I wrote Java applications that
-          moved critical data between state departments. I traveled to
-          implementation sites. I trained users. I saw firsthand how software
-          quality affects people's work and lives.
-        </p>
-
-        <p>
-          But I realized my strength wasn't just in building systems, it was in{" "}
-          <span className="highlight">bridging worlds</span>. As a Business
-          Analyst and Manager, I connected business stakeholders with
-          development teams, introduced agile methods, and helped organizations
-          think differently about their products.
-        </p>
-
-        <p>
-          For the past{" "}
-          <span className="highlight">11 years at EVERSANA INTOUCH</span>, I've
-          led the evolution of our quality control practice. I pioneered visual
-          testing with Applitools, implemented modern frameworks like Cypress and Playwright,
-          and built teams that span continents. I've grown from managing a
-          handful of testers to directing an entire quality organization.
-        </p>
-
-        <p>
-          I focused on making quality accessible through strategic
-          leadership, mentorship, and championing the tools and processes that
-          help teams do their best work. I also explored how{" "}
-          <span className="highlight">AI and ML can transform</span> the
-          software development and testing lifecycles.
-        </p>
-
-        <p>
-          Today, I specialize in driving the <span className="highlight">quality and operational excellence</span> of our practice teams. 
-          I ensure compliance, monitor team health, and provide a clear account of project performance.
-          I manage team operations, from staffing decisions to acting as the central conduit 
-          between practice, delivery leads, and ops. My goal is to partner with leadership 
-          to drive priority initiatives that lead to{" "}<span className="highlight">continuous improvement</span> and ensure our practice is always running at its best.
-        </p>
-
-        <p>
-          When I'm not leading quality initiatives, you'll find me working on{" "}
-          <span className="highlight">Comrade Cola</span>, my creative outlet
-          where I blend storytelling, coding challenges, and a bit of satire.
-          It's my escape, my playground, and my reminder that{" "}<span className="highlight">the best work
-          happens when you're having fun</span>.
-        </p>
+        <div className="split">
+          <div className="practice reveal">
+            <span className="role">Practice A</span>
+            <h3>Quality Leadership</h3>
+            <p>
+              My tech journey started as a tester for a small credit card
+              company, learning what functional requirements and testing
+              strategy actually protect. From there I built systems for the
+              insurance industry, writing Java that moved critical data between
+              state departments. I traveled to implementation sites,
+              trained users, and saw firsthand how software quality shapes
+              people&rsquo;s work and lives.
+            </p>
+            <p>
+              For the last 11-ish years at EVERSANA INTOUCH I&rsquo;ve led the evolution of
+              our quality control practice: pioneering visual testing with
+              Applitools, implementing Cypress and Playwright, and building
+              teams that span continents. Today I direct the Business Systems Analysts, Quality Control, and Tagging. All with an emphasis on compliance, team health, and a clear account of project performance.
+            </p>
+          </div>
+          <div className="divider" aria-hidden="true"></div>
+          <div className="practice reveal">
+            <span className="role">Practice B</span>
+            <h3>Independent Craft</h3>
+            <p>
+              The same rigor shows up off the clock. Under ericterry.me I write
+              posts and ship ebooks on technology, relationship reconnection,
+              cozy/anti-productivity living, intimacy communication, and
+              deliberate leisure. 
+            </p>
+            <p>
+              I also build progressive web apps end to
+              end, from Desire Deck to PulsePoll, on a consistent React +
+              Firebase stack.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

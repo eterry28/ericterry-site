@@ -1,45 +1,58 @@
 function Journey() {
   return (
-    <section id="journey">
-        <h2>The Journey</h2>
-        <div className="timeline">
-            <div className="timeline-item">
-                <h3>Sr. Director of Digital Production Practices</h3>
-                <div className="year">2025 - Present | EVERSANA INTOUCH</div>
-                <p>Driving the quality and operational excellence of our practice teams. Ensuring compliance, monitoring team health, and providing a clear account of project performance.</p>
-            </div>
-
-            <div className="timeline-item">
-                <h3>Sr. Director of Quality Control</h3>
-                <div className="year">2024 - 2025 | EVERSANA INTOUCH</div>
-                <p>Led the continued evolution of quality control operations, focusing on strategic initiatives, team development, and ensuring our quality practice remains at the forefront of industry innovation.</p>
-            </div>
-
-            <div className="timeline-item">
-                <h3>Director of Quality Control</h3>
-                <div className="year">2020 - 2024 | EVERSANA INTOUCH</div>
-                <p>Led the maturation of the quality control group through strategic changes, implemented comprehensive policies and processes, optimized staffing and resource management, and mentored teams across multiple locations. Collaborated with executive leadership to align quality initiatives with business vision.</p>
-            </div>
-
-            <div className="timeline-item">
-                <h3>Quality Services Manager</h3>
-                <div className="year">2018 - 2020 | EVERSANA INTOUCH</div>
-                <p>Pioneered automated visual testing using Applitools and implemented Cypress JavaScript framework. Established standards-based test planning and trained teams in US and India. Early adopter of modern testing practices that would shape the future of our quality approach.</p>
-            </div>
-
-            <div className="timeline-item">
-                <h3>Business Systems Analyst</h3>
-                <div className="year">2014 - 2018 | EVERSANA INTOUCH</div>
-                <p>Designed UX for enterprise applications, led product teams using agile methods, and developed requirements for applications meeting FDA standards. Bridged technical and business stakeholders in the pharmaceutical and healthcare space.</p>
-            </div>
-
-            <div className="timeline-item">
-                <h3>Building Foundations</h3>
-                <div className="year">2007 - 2014 | NIPR</div>
-                <p>Grew from Software Engineer to Business Analyst Manager. Built complex systems, provided technical support across multiple languages, implemented agile methodologies, and managed teams and budgets. This is where I learned that the best solutions come from understanding both the code and the people.</p>
-            </div>
-        </div>
-    </section>
+    <section id="journey" style={{ background: "var(--paper-dim)" }}>
+  <div className="wrap">
+    <div className="section-head reveal">
+      <div className="eyebrow">The Journey</div>
+      <h2>Career, verified</h2>
+    </div>
+    <div className="timeline">
+ 
+      <div className="tl-item reveal">
+        <div className="tl-date">2025 &mdash; Present</div>
+        <h3>Sr. Director of Digital Production Practices</h3>
+        <div className="tl-org">EVERSANA INTOUCH</div>
+        <p>Driving the quality and operational excellence of our practice teams. Ensuring compliance, monitoring team health, and providing a clear account of project performance.</p>
+      </div>
+ 
+      <div className="tl-item reveal">
+        <div className="tl-date">2024 &mdash; 2025</div>
+        <h3>Sr. Director of Quality Control</h3>
+        <div className="tl-org">EVERSANA INTOUCH</div>
+        <p>Led the continued evolution of quality control operations &mdash; strategic initiatives, team development, and keeping the practice at the forefront of industry innovation.</p>
+      </div>
+ 
+      <div className="tl-item reveal">
+        <div className="tl-date">2020 &mdash; 2024</div>
+        <h3>Director of Quality Control</h3>
+        <div className="tl-org">EVERSANA INTOUCH</div>
+        <p>Led the maturation of the quality control group through strategic change, implemented comprehensive policy, optimized staffing, and mentored teams across multiple locations.</p>
+      </div>
+ 
+      <div className="tl-item reveal">
+        <div className="tl-date">2018 &mdash; 2020</div>
+        <h3>Quality Services Manager</h3>
+        <div className="tl-org">EVERSANA INTOUCH</div>
+        <p>Pioneered automated visual testing with Applitools and implemented the Cypress framework. Established standards-based test planning and trained teams across the US and India.</p>
+      </div>
+ 
+      <div className="tl-item reveal">
+        <div className="tl-date">2014 &mdash; 2018</div>
+        <h3>Business Systems Analyst</h3>
+        <div className="tl-org">EVERSANA INTOUCH</div>
+        <p>Designed UX for enterprise applications, led product teams using agile methods, and developed requirements for applications meeting FDA standards.</p>
+      </div>
+ 
+      <div className="tl-item reveal">
+        <div className="tl-date">2007 &mdash; 2014</div>
+        <h3>Building Foundations</h3>
+        <div className="tl-org">NIPR</div>
+        <p>Grew from Software Engineer to Business Analyst Manager &mdash; built complex systems, supported multiple languages, and learned that the best solutions come from understanding both the code and the people.</p>
+      </div>
+ 
+    </div>
+  </div>
+</section>
   );
 }
 

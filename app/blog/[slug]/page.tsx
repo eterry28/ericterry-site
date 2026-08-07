@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { notFound } from "next/navigation";
+import Nav from "@/components/Nav";
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -23,37 +24,12 @@ export default async function BlogPost({
 
   return (
     <>
-      <div className="grid-bg" />
-      <nav>
-        <ul>
-          <li>
-            <a href="/#home">Home</a>
-          </li>
-          <li>
-            <a href="/#story">Story</a>
-          </li>
-          <li>
-            <a href="/#journey">Journey</a>
-          </li>
-          <li>
-            <a href="/#expertise">Expertise</a>
-          </li>
-          <li>
-            <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#connect">Connect</a>
-          </li>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
       <article className="blog-post">
         <Link href="/blog" className="back-link">
           ← Back to Blog
         </Link>
-        <h1>{post.title}</h1>
+        <h2>{post.title}</h2>
 
         <div className="meta">
           {post.date}

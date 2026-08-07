@@ -1,8 +1,9 @@
+import Script from "next/script";
 import Hero from "@/components/Hero";
 import Story from "@/components/Story";
 import Journey from "@/components/Journey";
 import Expertise from "@/components/Expertise";
-import Projects from "@/components/Projects";
+import Store from "@/components/Store";
 import Connect from "@/components/Connect";
 import Nav from "@/components/Nav";
 
@@ -16,10 +17,10 @@ export default function Home() {
         <Story />
         <Journey />
         <Expertise />
-        <Projects />
+        <Store />
         <Connect />
       </main>
-      <script src="/js/main.js"></script>
+      <Script src="/js/main.js" strategy="afterInteractive" />
     </>
   );
 }

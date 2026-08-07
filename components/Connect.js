@@ -1,15 +1,31 @@
+import Link from "next/link";
+
 function Connect() {
-    return(
-        <section id="connect">
-        <h2>Let's Connect</h2>
-        <div className="contact-content">
-            <p>I'm always interested in connecting with fellow quality professionals, discussing the future of testing and AI, or just chatting about tech and creative projects.</p>
-            <div className="social-links">
-                <a href="https://github.com/eterry28" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/eric-terry-kc/" target="_blank">LinkedIn</a>
-            </div>
+  return (
+    <section id="connect">
+      <div className="wrap">
+        <div className="connect-box reveal">
+          <div>
+            <div className="eyebrow">Let&rsquo;s connect</div>
+            <h2>Fellow quality nerds &amp; fellow makers, welcome.</h2>
+          </div>
+          <div className="social-row">
+            <a href="https://github.com/eterry28" className="btn btn-ghost">
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/eric-terry-kc/"
+              className="btn btn-ghost"
+            >
+              LinkedIn
+            </a>
+                <Link href="/store" className="btn btn-primary">
+              Shop →
+            </Link>
+          </div>
         </div>
+      </div>
     </section>
-    );
-}  
+  );
+}
 export default Connect;

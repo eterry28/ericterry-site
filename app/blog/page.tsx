@@ -1,57 +1,23 @@
 import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
+import Nav from "@/components/Nav";
 
 export default function Blog() {
   const posts = getAllPosts();
 
   return (
     <>
-      <div className="grid-bg" />
-      <nav>
-        <ul>
-          <li>
-          <a href="/#home">Home</a>
-        </li>
-        <li>
-          <a href="/#story">Story</a>
-        </li>
-        <li>
-          <a href="/#journey">Journey</a>
-        </li>
-        <li>
-          <a href="/#expertise">Expertise</a>
-        </li>
-        <li>
-          <a href="/#projects">Initiatives</a>
-        </li>
-        <li>
-          <a href="/#connect">Connect</a>
-        </li>
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-        {/*}
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-        */}
-        </ul>
-      </nav>
-      <div className="blog-container">
-        <h1 style={{ 
-          fontSize: 'clamp(2.5rem, 6vw, 4rem)',
-          background: 'linear-gradient(135deg, var(--neon-cyan), var(--neon-magenta))',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          backgroundClip: 'text',
-          marginBottom: '3rem',
-          textAlign: 'center'
-        }}>
-          Blog
-        </h1>
-        <div className="blog-grid">
+      <Nav />
+      <section>
+      <div className="wrap">
+        <div className="section-head">
+          <h2>Blog</h2>
+          <p>Thoughts, ideas, and stories from my journey as a technologist and people leader.</p>
+        </div>
+      
+        <div className="preview-grid">
           {posts.map((post) => (
-            <Link href={`/blog/${post.slug}`} key={post.slug} className="blog-card">
+            <Link href={`/blog/${post.slug}`} key={post.slug} className="connect-box">
               <h3>{post.title}</h3>
               <div className="date">{post.date}</div>
               <p className="excerpt">{post.excerpt}</p>
@@ -69,6 +35,16 @@ export default function Blog() {
           ))}
         </div>
       </div>
+      </section>
+
+      <footer>
+        <div className="wrap">
+          <p>&copy; 2026 Eric Terry &mdash; ericterry.me</p>
+          <p>
+            <Link href="/">(&larr; Back to main site)</Link>
+          </p>
+        </div>
+      </footer>
     </>
   );
 }

@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+
+declare module "*.css";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-xt-extension-active="tfe">
       <body>{children}</body>
     </html>
   );
