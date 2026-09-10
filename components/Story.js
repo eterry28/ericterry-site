@@ -6,31 +6,22 @@ function Story() {
           <div className="eyebrow">The Story</div>
           <h2>Where the discipline comes from</h2>
           <p>
-            I&rsquo;ve spent over 20 years in tech, but my sense of quality
-            started somewhere deeper; the healthcare frontlines. That
-            taught me quality is much more than clean code or passing tests.
-            It&rsquo;s about real impact on real people.
+            I&rsquo;ve spent more than 20 years building technology, leading teams, and improving the systems behind digital work. But my understanding of quality started somewhere deeper: on the healthcare frontlines.
+            </p>
+          <p>
+            That experience taught me something I&rsquo;ve carried through every role since: quality isn&rsquo;t about making something pass a test. It&rsquo;s about understanding the consequences of what you build and making it better before those consequences reach someone else.
           </p>
         </div>
 
         <div className="split">
           <div className="practice reveal">
             <span className="role">Practice A</span>
-            <h3>Quality Leadership</h3>
+            <h3>Quality &amp; Digital Leadership</h3>
             <p>
-              My tech journey started as a tester for a small credit card
-              company, learning what functional requirements and testing
-              strategy actually protect. From there I built systems for the
-              insurance industry, writing Java that moved critical data between
-              state departments. I traveled to implementation sites,
-              trained users, and saw firsthand how software quality shapes
-              people&rsquo;s work and lives.
-            </p>
+              My technology journey started as a tester for a small credit card company, where I learned how much good requirements and thoughtful testing could change the outcome of a project. From there I moved through software engineering, business analysis, and technology implementation; building systems, training users, and seeing firsthand how software quality affects real work.
+              </p>
             <p>
-              For the last 11-ish years at EVERSANA INTOUCH I&rsquo;ve led the evolution of
-              our quality control practice: pioneering visual testing with
-              Applitools, implementing Cypress and Playwright, and building
-              teams that span continents. Today I direct the Business Systems Analysts, Quality Control, and Tagging. All with an emphasis on compliance, team health, and a clear account of project performance.
+              For more than a decade at EVERSANA INTOUCH, that experience evolved into leadership: building quality practices, introducing visual AI testing, implementing Cypress and Playwright, developing teams, and connecting quality to business performance. Today, I lead digital content production and quality, with the same focus on systems, people, and outcomes.
             </p>
           </div>
           <div className="divider" aria-hidden="true"></div>
@@ -38,15 +29,10 @@ function Story() {
             <span className="role">Practice B</span>
             <h3>Independent Craft</h3>
             <p>
-              The same rigor shows up off the clock. Under ericterry.me I write
-              posts and ship ebooks on technology, relationship reconnection,
-              cozy/anti-productivity living, intimacy communication, and
-              deliberate leisure. 
-            </p>
+              The same rigor shows up off the clock. Through ericterry.me, I turn ideas into finished things—writing essays, publishing ebooks, and building digital products from concept to launch.
+              </p>
             <p>
-              I also build progressive web apps end to
-              end, from Desire Deck to PulsePoll, on a consistent React +
-              Firebase stack.
+              I also build progressive web apps end to end, from product concept and interface design to React development and deployment. The projects vary. The practice doesn&rsquo;t: make something useful, make it well, and ship it.
             </p>
           </div>
         </div>

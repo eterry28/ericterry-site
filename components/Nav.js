@@ -19,7 +19,7 @@ function Nav() {
         </button>
         <ul className="nav-links" id="navLinks">
           <li>
-            <Link href="/#story">Story</Link>
+            <Link href="/#story" >Story</Link>
           </li>
           <li>
             <Link href="/#journey">Journey</Link>
